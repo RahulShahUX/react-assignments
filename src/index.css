@@ -1,0 +1,19 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.page-title {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+} 
+.counter {
+  display: flex;
+  align-items: center;
+}
+.counter .btn {
+  display: flex;
+  padding: 5px 8px;
+}
+.count-text {
+  padding: 0 15px;
+}
+.counter-icn {
+  max-width: 20px;
+}
