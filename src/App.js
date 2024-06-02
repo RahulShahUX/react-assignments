@@ -7,6 +7,9 @@ import { Container } from 'react-bootstrap';
 import UseContextHook from './Components/UseContextHook/UseContextHook';
 import UseRefHook from './Components/UseRefHook/UseRefHook';
 import UseReducerHook from './Components/UseReducerHook/UseReducerHook';
+import UseMemoHook from './Components/UseMemoHook/UseMemoHook';
+import UseCallbackHook from './Components/UseCallbackHook/UseCallbackHook';
+import CustomHook from './Components/CustomHook/CustomHook';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
           <Route element={<UseContextHook />} path='/usecontext' />
           <Route element={<UseRefHook />} path='/useref' />
           <Route element={<UseReducerHook />} path='/usereducer' />
+          <Route element={<UseMemoHook/>} path='/usememo' />
+          <Route element={<UseCallbackHook />} path='/usecallback' />
+          <Route element={<CustomHook />} path='/customhook' />
         </Routes>
       </Container>
     </BrowserRouter>
